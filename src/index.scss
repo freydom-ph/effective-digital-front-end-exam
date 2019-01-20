@@ -1,0 +1,28 @@
+body {
+	h1,
+	h2,
+	h3,
+	p,
+	span,
+	button,
+	a {
+		font-family: "Roboto", sans-serif;
+	}
+
+	h1 {
+		font-weight: 500;
+	}
+}
+
+#root {
+	width: 80rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 900px;
+
+	.pointer {
+		cursor: pointer;
+	}
+}

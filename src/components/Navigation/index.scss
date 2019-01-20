@@ -1,0 +1,19 @@
+.navigation {
+	display: flex;
+	justify-content: flex-end;
+
+	.nav-button {
+        font-size: 1rem;
+        border-right: 1px solid #333;
+        letter-spacing: 2px;
+
+        &:hover {
+            font-weight: 500;
+        }
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+    
+}
